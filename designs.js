@@ -38,19 +38,3 @@ function makeGrid(height, width) {
         }
     }
 }
-
-// function makeGrid(height, width) {
-//     //let selectedColor = document.getElementById('colorPicker').value;
-//     table.innerHTML = " ";
-//     for (let i = 0; i < height; i++) {
-//         const row = document.createElement('tr');
-//         table.append(row);
-//         for (let j = 0; j < width; j++) {
-//             const col = document.createElement('td');
-//             row.append(col);
-//             col.addEventListener('click', function(colorPick) {   
-//                 col.style.backgroundColor = colorPick.value;
-//             });
-//         }
-//     }
-// };
